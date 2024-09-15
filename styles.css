@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    }
+    body {
+        font-size: 150%;
+        margin: 0;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+      }
+      
+      header, main, footer {
+        display: flex;
+        align-items: center;
+        padding: 0 20px; 
+      }
+      header {
+        font-weight: 1000;
+        background-color: lightcoral;
+        height: 30vh;
+        justify-content: flex-start;
+      }
+      
+      main {
+        font-size: 200%;
+        font-style: oblique;
+        background-color: lightblue;
+        height: 40vh;
+        justify-content: center; 
+      }
+      
+      footer {
+        font-family:fantasy;
+        background-color: lightgreen;
+        height: 30vh;
+        justify-content: flex-end; 
+      }
+      
